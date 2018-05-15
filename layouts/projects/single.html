@@ -33,7 +33,7 @@
 		{{ with .Params.patterns }}
 		<ul>
 			{{ range . }}
-			<li class="tag"><a href="{{ "pattern" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
+			<li class="tag"><a href="{{ "patterns" | absURL }}/{{ . | urlize }}">{{ . }}</a></li>
 			{{ end }}
 		</ul>
 		{{ end }}
